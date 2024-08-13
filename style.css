@@ -32,6 +32,7 @@
 .border:hover {
     border:1.5px solid white;
     cursor: pointer;
+    border-radius: 2px;
 }
 
 /* nav 2 */
@@ -64,6 +65,7 @@
 }
 .nav-search:hover{
     border: 2px solid orange;
+    border-radius: 6px;
 }
 .search-select {
     background-color: #f3f3f3;
