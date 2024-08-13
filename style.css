@@ -118,4 +118,30 @@ span{
 .nav-main{
     height: 40px;
     background-color: #232f3e;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-main-left{
+
+    height: 40px;
+    width: 58;
+    padding: 7px;
+    font-size: 14px;
+    font-weight: 700;
+    color: #f3f3f3;
+    display: flex;
+    align-items: center;
+
+}
+.nav-main-right{
+    width: 95%;
+}
+.nav-main-right > a{
+    text-decoration: none;
+    margin : 5px 0 6px;
+    color:#ffffff;
+    padding: 8px 9px;
+
 }
