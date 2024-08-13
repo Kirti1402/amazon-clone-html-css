@@ -184,10 +184,36 @@ span {
   position: absolute;
   top: 50%;
   width: 100%;
+ 
+}
+
+.box1{
+    padding: 20px 0 0 0;
 }
 .box {
   border: 2px solid black;
   height: 420px;
-  width: 23%;
+  width: 345px;
   background-color: aliceblue;
+}
+
+.box-heading{
+    padding: 0 20px;
+    margin-bottom: 5px;
+}
+
+.box1-images{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 0 44px;
+    height: 80%;
+    margin-bottom: 5px;
+    padding: 0 20px;
+}
+
+.img{
+
+    height: 80px;
+    width: 130px;
+    margin: 1px;
 }
