@@ -252,3 +252,14 @@ footer {
   background-color: black;
   color: white;
 }
+.box-4{
+  height: 150px;
+}
+.btn-sign-in{
+  background-color: rgb(244, 229, 65);
+  border: none;
+  font-weight: 500;
+  padding: 10px;
+  width: 100%;
+  border-radius: 50px;
+}
