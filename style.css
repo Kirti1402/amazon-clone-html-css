@@ -11,7 +11,6 @@
   align-items: center;
   justify-content: space-evenly;
   color: rgb(255, 255, 255);
-  position: sticky;
 }
 
 .logo {
@@ -165,6 +164,7 @@ span {
   background-position: center;
   position: relative;
 }
+
 .hero-section::after {
   content: "";
   position: absolute;
@@ -179,24 +179,29 @@ span {
   );
 }
 
+.section {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  margin-top: -330px;
+  bottom: 0;
+}
+
 .shop-section {
   display: flex;
   justify-content: space-evenly;
-  position: absolute;
-  top: 50%;
   width: 100%;
- 
+  margin-bottom:20px;
+
 }
 
-.box1{
-    padding: 20px 0 15px 0
-}
-
-.box {
+.box{
   padding-top: 20px;
-  height: 420px;
+  height: 400px;
   width: 330px;
   background-color: white;
+  padding: 20px 0 15px 0;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
 }
 
 .box-heading{
@@ -204,19 +209,22 @@ span {
     margin-bottom: 10px;
 }
 
-
 img{
     height: 110px;
     width: 130px;
     margin: 1px;
 }
 
-.box-1{
+.box-container{
     display: flex;
     justify-content: space-between;
     padding: 0 20px;
+    
 }
 
+.item{
+  margin-bottom: 12px;
+} 
 
 .text{
     display: block;
@@ -229,28 +237,18 @@ img{
 .box-footer{
     padding: 0 20px;
     margin-bottom: 20px;
-    position: absolute;
-    bottom: 0;
+    position: relative;
     width: 100%;
+    bottom: 0;
 }
 .box-footer a{
     text-decoration: none;
     color: #007185;
     font-size: 13px !important;
-    font-family: "Amazon Ember", Arial, sans-serif;
+    font-family: Arial, sans-serif;
 }
 
-.item{
-    margin-bottom: 12px;
-}
-
-
-.section {
-    background-color: #868686;
-}
-
-.row-1{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+footer {
+  background-color: black;
+  color: white;
 }
