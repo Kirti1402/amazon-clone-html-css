@@ -11,6 +11,7 @@
   align-items: center;
   justify-content: space-evenly;
   color: rgb(255, 255, 255);
+  position: sticky;
 }
 
 .logo {
@@ -154,8 +155,8 @@ span {
 .hero-section {
   background-image: linear-gradient(
       to bottom,
-      rgba(255, 255, 255, 0),
-      rgba(255, 255, 255, 1)
+      rgba(255, 255, 255,0),
+      rgb(255, 255, 255)
     ),
     url(/HeroImage/Image1.jpg);
   height: 600px;
@@ -188,32 +189,68 @@ span {
 }
 
 .box1{
-    padding: 20px 0 0 0;
+    padding: 20px 0 15px 0
 }
+
 .box {
-  border: 2px solid black;
+  padding-top: 20px;
   height: 420px;
-  width: 345px;
-  background-color: aliceblue;
+  width: 330px;
+  background-color: white;
 }
 
 .box-heading{
     padding: 0 20px;
-    margin-bottom: 5px;
+    margin-bottom: 10px;
 }
 
-.box1-images{
+
+img{
+    height: 110px;
+    width: 130px;
+    margin: 1px;
+}
+
+.box-1{
     display: flex;
-    flex-wrap: wrap;
-    margin: 0 0 44px;
-    height: 80%;
-    margin-bottom: 5px;
+    justify-content: space-between;
     padding: 0 20px;
 }
 
-.img{
 
-    height: 80px;
-    width: 130px;
-    margin: 1px;
+.text{
+    display: block;
+}
+
+.text span{
+    font-size: 12px;
+    font-weight: 500;
+}
+.box-footer{
+    padding: 0 20px;
+    margin-bottom: 20px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+.box-footer a{
+    text-decoration: none;
+    color: #007185;
+    font-size: 13px !important;
+    font-family: "Amazon Ember", Arial, sans-serif;
+}
+
+.item{
+    margin-bottom: 12px;
+}
+
+
+.section {
+    background-color: #868686;
+}
+
+.row-1{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
